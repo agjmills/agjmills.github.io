@@ -3,7 +3,6 @@ layout: post
 title: Running Laravel inside Docker for local development
 ---
 
-# Laravel Docker Tutorial
 A simple tutorial project explaining fundamentals of docker, in the context of a Laravel application
 
 This is written from the perspective of an Ubuntu Linux user (me), so YMMV if you're using Mac/Windows/Other Linux 

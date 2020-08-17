@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+My name is Alex Mills, and I'm a web developer and devops consultant based in Worcestershire, England. I have a passion for code and love to create for web and mobile devices, as well as providing secure, stable, and scalable systems.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+alex@asdfx.us
+https://github.com/agjmills
+01299 888039

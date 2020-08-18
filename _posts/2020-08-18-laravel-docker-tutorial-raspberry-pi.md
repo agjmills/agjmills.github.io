@@ -16,7 +16,7 @@ in some cases, you may need to replace certain images with ARM specific containe
 
 Below is my standard `docker-compose.yml` for a Laravel application:
 
-`
+```
 version: '3'
 
 services:
@@ -67,11 +67,11 @@ services:
     image: mailhog/mailhog
     ports:
       - 127.0.0.1:8025:8025
-`
+```
 
 And below is the modified version for arm64v8 (raspberry pi 3 and raspberry pi 4 compatible):
 
-`
+```
 version: '3'
 
 services:
@@ -123,7 +123,7 @@ services:
         #    ports:
         #      - 127.0.0.1:8025:8025
 
-`
+```
 
 The `web` and `app` containers are compiled natively when the docker image is built - which is helped by the fact they are based on Debian containers which have good arm64 support.
 
